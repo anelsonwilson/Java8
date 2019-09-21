@@ -18,8 +18,8 @@ public class ClientTest {
 		numbers.forEach(System.out::println);
 		System.out.println("-------------------------");
 		
-		List<Double> findSquareRoots = ClientTest.findSquareRoots(numbers,Integer::new);
-		findSquareRoots.forEach(System.out::println);
+		List<Double> squareRoots = ClientTest.findSquareRoots(numbers,Integer::new);
+		squareRoots.forEach(System.out::println);
 	}
 
 	private static List<Double> findSquareRoots(List<Integer> numbers,Function<Integer, Integer> f) {
