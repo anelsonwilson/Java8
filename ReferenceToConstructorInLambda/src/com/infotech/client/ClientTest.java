@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
+/**
+ * Modified by me.
+ * @author nelson
+ *
+ */
 public class ClientTest {
 
 	public static void main(String[] args) {
